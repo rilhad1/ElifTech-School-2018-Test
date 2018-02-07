@@ -20,10 +20,7 @@ $(document).ready(function() {
         if (b === 0) {
             return 42;
         }
-        console.log('lalala',a/b);
-        console.log('qweqweq',Math.floor(a / b));     
-
-        return Math.floor(a / b);
+         return a / b;
     };
 
     function isNumber(i) {
