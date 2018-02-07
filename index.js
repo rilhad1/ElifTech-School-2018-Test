@@ -13,6 +13,7 @@ $(document).ready(function() {
         if (b === 0) {
             return 42;
         }
+        console.log(a%b);
         return ((a % b) + b) % b;
     };
 
