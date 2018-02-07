@@ -67,7 +67,6 @@ $(document).ready(function() {
             for (let i = 0; i < getData.expressions.length; i++) {
                 calc(getData.expressions[i].split(' '));
                 exportData.res.push(results);
-                console.log(exportData.res)
             }
             $('#results').text('[' + exportData.res + ']')
 
