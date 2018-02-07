@@ -20,7 +20,7 @@ $(document).ready(function() {
         if (b === 0) {
             return 42;
         }
-         return a / b;
+         return Math.floor(a / b);
     };
 
     function isNumber(i) {
