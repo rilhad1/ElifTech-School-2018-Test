@@ -13,7 +13,8 @@ $(document).ready(function() {
         if (b === 0) {
             return 42;
         }
-        console.log(a%b);
+        console.log('lalala',a%b);
+        console.log('qweqweq',(a % b) + b) % b);     
         return ((a % b) + b) % b;
     };
 
