@@ -14,7 +14,7 @@ $(document).ready(function() {
             return 42;
         }
         console.log('lalala',a%b);
-        console.log('qweqweq',(((a % b) + b) % b);     
+        console.log('qweqweq',(((a % b) + b) % b));     
         return ((a % b) + b) % b;
     };
 
